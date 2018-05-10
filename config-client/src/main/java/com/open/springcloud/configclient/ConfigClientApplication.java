@@ -12,7 +12,7 @@ public class ConfigClientApplication {
 
 	@Value("${foo}")
 	private String foo;
-	@RequestMapping("hi")
+	@RequestMapping("/hi")
 	public String hi(){
 		return foo;
 	}
